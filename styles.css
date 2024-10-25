@@ -1,0 +1,52 @@
+/* Estilo para el html y body para que ocupen toda la altura de la ventana */
+html, body {
+    height: 100%; /* Asegura que el html y el body ocupen el 100% del alto */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+/* Estilo para el body */
+body {
+    background-image: url('Fondo.avif'); /* Cambia esto al nombre de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+/* Estilo para los modales */
+.modal-content {
+    background-color: #343a40; /* Cambia a un color más oscuro */
+    color: white; /* Asegura que el texto sea blanco */
+}
+
+/* Estilo para las etiquetas dentro de los modales */
+.modal-header h5,
+.modal-body label {
+    color: white; /* Asegúrate de que las etiquetas también sean de color blanco */
+}
+
+/* Estilo para los inputs y textos */
+.modal-body input,
+.modal-body select {
+    background-color: #495057; /* Cambia a un color más oscuro para el fondo de los inputs */
+    color: white; /* Asegura que el texto en los inputs sea blanco */
+}
+
+/* Estilo para el título */
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Estilos para los botones */
+.btn {
+    margin: 10px; /* Añade un margen entre los botones */
+}
+
+/* Estilo para la firma */
+.text-right {
+    position: fixed; /* Posiciona la firma de manera fija */
+    bottom: 10px; /* Alinea al fondo */
+    right: 20px; /* Alinea a la derecha */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #6c757d; /* Color de la firma */
+}
